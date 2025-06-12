@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RR Count
+  m_Shader: {fileID: 4800000, guid: c743e1ab44dd91641a5a50288db1b364, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _COUNTER1DIGITS_THREE
+  - _COUNTER2DIGITS_THREE
+  - _COUNTER3DIGITS_THREE
+  - _COUNTER4DIGITS_THREE
+  - _DIGITCOUNT_KEY0
+  - _DIGITS1_ONE
+  - _DIGITS2_ONE
+  - _DIGITS3_TWO
+  - _DIGITS_KEY3
+  - _DIGITS_TWO
+  - _KEYWORD1_KEY0
+  - _KEYWORD1_OFF
+  - _NUMBEROFCOUNTERS2_ONE
+  - _NUMBEROFCOUNTERS_FOUR
+  - _TEKDIGITS_KEY0
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AdditionalEmissives:
+        m_Texture: {fileID: 2800000, guid: 71acea0a26a37e4429731e12114093a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Back:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Background:
+        m_Texture: {fileID: 2800000, guid: 57b50d0114ea286419b1a8de5431b2b3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DigitTextureArray:
+        m_Texture: {fileID: 18700000, guid: 7b433ff0a41187141b92f092b5f98afd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Font:
+        m_Texture: {fileID: 18700000, guid: 7b433ff0a41187141b92f092b5f98afd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FontTextureArray:
+        m_Texture: {fileID: 18700000, guid: 7b433ff0a41187141b92f092b5f98afd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpriteSheet:
+        m_Texture: {fileID: 18700000, guid: 7b433ff0a41187141b92f092b5f98afd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpriteSheet1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpriteSheet2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpriteSheet3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 792953ce39b060247a0e7f5f41ff47df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AvgBreathRateScale: 7
+    - _BumpScale: 1
+    - _Counter1Digits: 2
+    - _Counter1Scale: 7
+    - _Counter2Digits: 2
+    - _Counter2Scale: 7
+    - _Counter3Digits: 2
+    - _Counter3Scale: 7
+    - _Counter4Digits: 2
+    - _Counter4Scale: 7
+    - _CurrentBreathRateScale: 7
+    - _Cutoff: 1
+    - _DetailNormalMapScale: 1
+    - _DigitCount: 0
+    - _Digits: 1
+    - _Digits1: 0
+    - _Digits2: 0
+    - _Digits3: 1
+    - _Digits4: 0
+    - _Digits5: 0
+    - _Digits6: 0
+    - _DstBlend: 0
+    - _Float0: 2.08
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Hundred: 3
+    - _Keyword1: 0
+    - _MaxBreathRateScale: 7
+    - _Metallic: 0
+    - _MinBreathRateScale: 7
+    - _Mode: 0
+    - _NumberofCounters: 3
+    - _NumberofCounters2: 0
+    - _OcclusionStrength: 1
+    - _One: 5
+    - _Opacity: 0.568
+    - _Parallax: 0.02
+    - _Scale: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TekDigits: 0
+    - _Ten: 4
+    - _Thousand: 2
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _AdditionalEmissivesTint: {r: 0.62352943, g: 0.62352943, b: 0.62352943, a: 1}
+    - _AvgBreathRate: {r: 0, g: 0, b: 0, a: 0}
+    - _AvgBreathRateOffset: {r: 0, g: 0.9, b: 0, a: 0}
+    - _Background: {r: 0, g: 0, b: 0, a: 0.9019608}
+    - _BackgroundTint: {r: 1, g: 1, b: 1, a: 0.9607843}
+    - _BackingColor: {r: 0, g: 0, b: 0, a: 0.8}
+    - _BackingColor1: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Counter1: {r: 0, g: 0, b: 0, a: 0}
+    - _Counter1Offset: {r: 0, g: -2.2, b: 0, a: 0}
+    - _Counter2: {r: 2, g: 3, b: 0, a: 0}
+    - _Counter2Offset: {r: 4.5, g: 0.9, b: 0, a: 0}
+    - _Counter3: {r: 4, g: 5, b: 6, a: 0}
+    - _Counter3Offset: {r: -4.5, g: 0.9, b: 0, a: 0}
+    - _Counter4: {r: 7, g: 8, b: 9, a: 0}
+    - _Counter4Offset: {r: 0, g: 0.9, b: 0, a: 0}
+    - _CounterColor: {r: 1, g: 1, b: 1, a: 0}
+    - _CurrentBreathRate: {r: 0, g: 0, b: 0, a: 0}
+    - _CurrentBreathRateOffset: {r: 0, g: -2.2, b: 0, a: 0}
+    - _DigitBackingColor: {r: 0.14899993, g: 0, b: 0, a: 0}
+    - _DigitColor: {r: 0, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MaxBreathRate: {r: 0, g: 0, b: 0, a: 0}
+    - _MaxBreathRateOffset: {r: -4.5, g: 0.9, b: 0, a: 0}
+    - _MinBreathRate: {r: 0, g: 0, b: 0, a: 0}
+    - _MinBreathRateOffset: {r: 4.5, g: 0.9, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

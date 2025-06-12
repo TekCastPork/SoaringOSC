@@ -1,1 +1,40 @@
-{"dependencies": {}, "locked": {}}
+{
+  "dependencies": {
+    "com.vrchat.avatars": {
+      "version": "3.8.1"
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.29"
+    },
+    "net.bluwizard.hierarchy": {
+      "version": "1.7.0"
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.1234.0"
+    }
+  },
+  "locked": {
+    "com.vrchat.avatars": {
+      "version": "3.8.1",
+      "dependencies": {
+        "com.vrchat.base": "3.8.1"
+      }
+    },
+    "com.vrchat.base": {
+      "version": "3.8.1",
+      "dependencies": {}
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.29",
+      "dependencies": {}
+    },
+    "net.bluwizard.hierarchy": {
+      "version": "1.7.0",
+      "dependencies": {}
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.1234.0",
+      "dependencies": {}
+    }
+  }
+}
