@@ -1,1 +1,0 @@
-# com.tekcast.vrcfitnessosc by TekCastPork
