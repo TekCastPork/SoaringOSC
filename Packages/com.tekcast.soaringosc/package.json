@@ -5,17 +5,17 @@
   "description": "Assets related to the SoaringOSC system.",
   "gitDependencies": {},
   "vpmDependencies": {
-    "com.vrchat.avatars": "3.8.1"
+    "com.vrchat.avatars": "3.8.1",
+	"com.vrcfury.vrcfury": "1.1234.0"
   },
   "author": {
     "name": "TekCastPork",
     "email": "tekcastpork@gmail.com",
-    "url": "tekcast.carrd.co"
+    "url": "https://www.tekcast.carrd.co"
   },
   "legacyFolders": {},
   "legacyFiles": {},
   "localPath": "D:\\2 - Unity Projects\\VRCFitnessOSC\\Packages\\com.tekcast.vrcfitnessosc",
   "dependencies": {
-    "com.vrcfury.vrcfury": "1.1234.0"
   }
 }
