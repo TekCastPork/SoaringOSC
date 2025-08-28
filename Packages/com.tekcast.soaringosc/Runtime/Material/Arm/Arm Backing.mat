@@ -13,6 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
+  - POI_BACKFACE
   - VIGNETTE_MASKED
   - _EMISSION
   - _LIGHTINGMODE_FLAT
@@ -804,7 +805,7 @@ Material:
     - _BackFaceDetailIntensity: 1
     - _BackFaceEmissionLimiter: 1
     - _BackFaceEmissionStrength: 0
-    - _BackFaceEnabled: 0
+    - _BackFaceEnabled: 1
     - _BackFaceHueSelectOrShift: 1
     - _BackFaceHueShift: 0
     - _BackFaceHueShiftEnabled: 0
@@ -922,7 +923,7 @@ Material:
     - _CubeMapUVMode: 1
     - _CubeMapWorldNormalsStrength: 1
     - _CubemapBlendType: 0
-    - _Cull: 2
+    - _Cull: 0
     - _CurvFix: 1
     - _CurvatureU: 0
     - _CurvatureV: 0
@@ -3096,7 +3097,7 @@ Material:
     - m_start_alphaBlending: 0
     - m_start_audioLink: 0
     - m_start_audioLinkOverrides: 0
-    - m_start_backFace: 0
+    - m_start_backFace: 1
     - m_start_backlight: 0
     - m_start_blending: 0
     - m_start_brdf: 0
@@ -3660,7 +3661,7 @@ Material:
     - _AudioLinkRimWidthAdd: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkVoronoiInnerEmission: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkVoronoiOuterEmission: {r: 0, g: 0, b: 0, a: 0}
-    - _BackFaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BackFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _BackFaceMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _BackFaceTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _BacklightColor: {r: 0.85, g: 0.8, b: 0.7, a: 1}
@@ -3677,7 +3678,7 @@ Material:
     - _ClearCoatReflectionTint: {r: 1, g: 1, b: 1, a: 1}
     - _ClearCoatSpecularTint: {r: 1, g: 1, b: 1, a: 1}
     - _ClothMetallicSmoothnessMapPan: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0, g: 0, b: 0, a: 0.7254902}
+    - _Color: {r: 0, g: 0, b: 0, a: 0.59607846}
     - _CubeMapColor: {r: 1, g: 1, b: 1, a: 1}
     - _CubeMapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _CubeMapRotation: {r: 0, g: 0, b: 0, a: 0}

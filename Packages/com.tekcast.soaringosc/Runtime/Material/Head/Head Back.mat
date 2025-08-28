@@ -3101,7 +3101,7 @@ Material:
     - m_start_alphaBlending: 0
     - m_start_audioLink: 0
     - m_start_audioLinkOverrides: 0
-    - m_start_backFace: 0
+    - m_start_backFace: 1
     - m_start_backlight: 0
     - m_start_blending: 0
     - m_start_brdf: 0
