@@ -1,8 +1,8 @@
 {
   "name": "com.tekcastpork.soaringosc",
   "displayName": "SoaringOSC",
-  "version": "0.0.2",
-  "description": "Assets related to the SoaringOSC system created by TekCastPork.\n\nSoaring Fitness branding and logo used with permission.",
+  "version": "1.0.0",
+  "description": "Assets related to the SoaringOSC system.",
   "gitDependencies": {},
   "vpmDependencies": {
     "com.vrchat.avatars": "3.8.1"
