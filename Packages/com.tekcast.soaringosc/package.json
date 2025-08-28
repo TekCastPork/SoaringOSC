@@ -1,7 +1,7 @@
 {
   "name": "com.tekcastpork.soaringosc",
   "displayName": "SoaringOSC",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Assets related to the SoaringOSC system.",
   "gitDependencies": {},
   "vpmDependencies": {
