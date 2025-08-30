@@ -16,16 +16,16 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: ea09eb020d7da1e419c11f28a4982cec, type: 2}
   m_Tag: 
   m_SpeedParameter: BurnRateFine
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: BurnRateFine
 --- !u!206 &-8740146304913986599
 BlendTree:
   m_ObjectHideFlags: 1
@@ -57,16 +57,16 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: 18e433d796e54df4ea4fae5be3a07cd1, type: 2}
   m_Tag: 
   m_SpeedParameter: MinRR
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: MinRR
 --- !u!1102 &-8118879901950607868
 AnimatorState:
   serializedVersion: 6
@@ -83,16 +83,16 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: c12150999e92d834da706e7bb3244b3c, type: 2}
   m_Tag: 
   m_SpeedParameter: MaxHR
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: MaxHR
 --- !u!1107 &-7969753401286868969
 AnimatorStateMachine:
   serializedVersion: 6
@@ -131,16 +131,16 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: 028fd53c27277b347992301e2b52f4e0, type: 2}
   m_Tag: 
   m_SpeedParameter: BurnRateCoarse
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: BurnRateCoarse
 --- !u!1102 &-7557939730180476071
 AnimatorState:
   serializedVersion: 6
@@ -157,16 +157,16 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: 2c08050ced415ba479422f9019dfd00c, type: 2}
   m_Tag: 
   m_SpeedParameter: CaloriesLow
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: CaloriesLow
 --- !u!1107 &-7091196252890454275
 AnimatorStateMachine:
   serializedVersion: 6
@@ -360,16 +360,16 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: 862a13d826d494d4cad07551ca147f66, type: 2}
   m_Tag: 
   m_SpeedParameter: TrainingEffect
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: TrainingEffect
 --- !u!1102 &-3524046951118584379
 AnimatorState:
   serializedVersion: 6
@@ -451,16 +451,16 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: 14185a17cab91a84d9639779f9c85c43, type: 2}
   m_Tag: 
   m_SpeedParameter: RecoveryHours
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: RecoveryHours
 --- !u!1102 &-672432016400127472
 AnimatorState:
   serializedVersion: 6
@@ -824,16 +824,16 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: f03f332a68d011348888aafa126981b5, type: 2}
   m_Tag: 
   m_SpeedParameter: MaxRR
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: MaxRR
 --- !u!1107 &1506244483368685375
 AnimatorStateMachine:
   serializedVersion: 6
@@ -894,16 +894,16 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: 5817f1d82d47b744b8f95e813a2b3d0d, type: 2}
   m_Tag: 
   m_SpeedParameter: AvgRR
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: AvgRR
 --- !u!1102 &4168097876669158437
 AnimatorState:
   serializedVersion: 6
@@ -920,16 +920,16 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: d1eafb8269f938b439af7b43c311d427, type: 2}
   m_Tag: 
   m_SpeedParameter: CurrentRR
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: CurrentRR
 --- !u!206 &4413014722456566597
 BlendTree:
   m_ObjectHideFlags: 1
@@ -1005,16 +1005,16 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: ab799c7dd452e8449ba4926b4024cc12, type: 2}
   m_Tag: 
   m_SpeedParameter: CaloriesHigh
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: CaloriesHigh
 --- !u!1107 &6560550383351808040
 AnimatorStateMachine:
   serializedVersion: 6
@@ -1068,16 +1068,16 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: 12a95b739e7bf714abdac3fce6005d72, type: 2}
   m_Tag: 
   m_SpeedParameter: AvgHR
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: AvgHR
 --- !u!1102 &9210305732867723314
 AnimatorState:
   serializedVersion: 6
@@ -1094,13 +1094,13 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: 138d668a01da9c64894a2fb690f7913e, type: 2}
   m_Tag: 
   m_SpeedParameter: MinHR
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: MinHR
