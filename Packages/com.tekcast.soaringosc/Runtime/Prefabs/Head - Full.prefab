@@ -281,6 +281,16 @@ MonoBehaviour:
         - MaxHR
         - MinHR
         - AvgHR
+        - CurrentRR
+        - MaxRR
+        - MinRR
+        - AvgRR
+        - BurnRateCoarse
+        - BurnRateFine
+        - RecoveryHours
+        - TrainingEffect
+        - CaloriesLow
+        - CaloriesHigh
         allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
