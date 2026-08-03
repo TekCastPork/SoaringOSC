@@ -137,6 +137,11 @@ MonoBehaviour:
         - MaxHR
         - MinHR
         - AvgHR
+        - _Addr
+        - _Data0
+        - _Data1
+        - _Data2
+        - _ACK
         allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 

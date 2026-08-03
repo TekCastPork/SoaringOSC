@@ -177,6 +177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2328583920589116673}
   - component: {fileID: 764728468604022676}
+  - component: {fileID: 6143603357638698606}
   m_Layer: 0
   m_Name: Head - HR Only
   m_TagString: Untagged
@@ -309,3 +310,90 @@ MonoBehaviour:
   AffectsPositionX: 1
   AffectsPositionY: 1
   AffectsPositionZ: 1
+--- !u!114 &6143603357638698606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6051202102163224923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1234.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7124107744001130496
+  references:
+    version: 2
+    RefIds:
+    - rid: 7124107744001130496
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers:
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 9457386d81d017143a01a250991f807b|Packages/com.tekcastpork.soaringosc/Runtime/Animator/Head/Head
+              - HR Only.controller
+            objRef: {fileID: 9100000, guid: 9457386d81d017143a01a250991f807b, type: 2}
+          type: 5
+        menus: []
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 8e57ecd0d913f2b44a2c162e1fb53b26|Packages/com.tekcastpork.soaringosc/Runtime/Parameters/HR
+              Only.asset
+            objRef: {fileID: 11400000, guid: 8e57ecd0d913f2b44a2c162e1fb53b26, type: 2}
+        smoothedPrms: []
+        globalParams:
+        - CurrentHR
+        - MaxHR
+        - MinHR
+        - AvgHR
+        - _Addr
+        - _Data0
+        - _Data1
+        - _Data2
+        - _ACK
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings: []
+        allowMissingAssets: 0
+        injectSpsDepthParam: 
+        injectSpsVelocityParam: 
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+        useSecurityForToggle: 0
