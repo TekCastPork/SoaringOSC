@@ -13,6 +13,8 @@
 /[Tt]hry/
 /[Uu]serSettings/
 
+/_Dev/
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
@@ -65,4 +67,3 @@ crashlytics-build.properties
 Assets/PackageMakerWindowData.asset*
 .idea
 .vscode
-

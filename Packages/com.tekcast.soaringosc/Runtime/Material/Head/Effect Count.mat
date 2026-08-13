@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TR Count
+  m_Name: Effect Count
   m_Shader: {fileID: 4800000, guid: 235b855579431cb4a870845c32a21419, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -39,7 +39,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AdditionalEmissives:
-        m_Texture: {fileID: 2800000, guid: c121fbebc77710641bc8e49c002a0b55, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4af69a7101c8e6742a64bbc543caef08, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Back:
@@ -47,7 +47,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Background:
-        m_Texture: {fileID: 2800000, guid: 99dc16b0e06abda4a9b27f47a21a214a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 55a7d866982682846a1934f200ba5d0c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -158,6 +158,7 @@ Material:
     - _Keyword1: 0
     - _Metallic: 0
     - _Mode: 0
+    - _ModerateMinutesScale: 9
     - _NumberofCounters: 2
     - _NumberofCounters2: 0
     - _OcclusionStrength: 1
@@ -173,6 +174,7 @@ Material:
     - _Ten: 4
     - _Thousand: 2
     - _UVSec: 0
+    - _VigorousMinutesScale: 9
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
@@ -198,7 +200,11 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FineTrainingEffect: {r: 0, g: 0, b: 0, a: 0}
     - _FineTrainingEffectOffset: {r: -3.13, g: 0, b: 0, a: 0}
+    - _ModerateMinutes: {r: 0, g: 0, b: 0, a: 0}
+    - _ModerateMinutesOffset: {r: -6.81, g: 1.92, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _RecoveryHours: {r: 0, g: 0, b: 0, a: 0}
     - _RecoveryHoursOffset: {r: 2.59, g: 0, b: 0, a: 0}
+    - _VigorousMinutes: {r: 0, g: 0, b: 0, a: 0}
+    - _VigorousMinutesOffset: {r: -6.81, g: -1.55, b: 0, a: 0}
   m_BuildTextureStacks: []

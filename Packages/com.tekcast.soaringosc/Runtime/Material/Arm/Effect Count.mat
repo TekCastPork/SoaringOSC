@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TR Count
+  m_Name: Effect Count
   m_Shader: {fileID: 4800000, guid: 235b855579431cb4a870845c32a21419, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -39,7 +39,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AdditionalEmissives:
-        m_Texture: {fileID: 2800000, guid: 4c8d7e158c5d2054cb636d620a78448f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4716bf11aa76cda4f9f795ef06dba664, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Back:
@@ -47,7 +47,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Background:
-        m_Texture: {fileID: 2800000, guid: b8c058298615cde4b89d8fc3614382a6, type: 3}
+        m_Texture: {fileID: 2800000, guid: ef5d6444662681a40be57bdac91b4cb8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -158,13 +158,14 @@ Material:
     - _Keyword1: 0
     - _Metallic: 0
     - _Mode: 0
+    - _ModerateMinutesScale: 10
     - _NumberofCounters: 2
     - _NumberofCounters2: 0
     - _OcclusionStrength: 1
     - _One: 5
     - _Opacity: 0.568
     - _Parallax: 0.02
-    - _RecoveryHoursScale: 5
+    - _RecoveryHoursScale: 6
     - _Scale: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -173,6 +174,7 @@ Material:
     - _Ten: 4
     - _Thousand: 2
     - _UVSec: 0
+    - _VigorousMinutesScale: 10
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
@@ -198,7 +200,11 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FineTrainingEffect: {r: 0, g: 0, b: 0, a: 0}
     - _FineTrainingEffectOffset: {r: -2.67, g: -1.78, b: 0, a: 0}
+    - _ModerateMinutes: {r: 0, g: 0, b: 0, a: 0}
+    - _ModerateMinutesOffset: {r: -4.56, g: -3.7, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _RecoveryHours: {r: 0, g: 0, b: 0, a: 0}
-    - _RecoveryHoursOffset: {r: -2, g: 0.63, b: 0, a: 0}
+    - _RecoveryHoursOffset: {r: 3.41, g: -0.87, b: 0, a: 0}
+    - _VigorousMinutes: {r: 0, g: 0, b: 0, a: 0}
+    - _VigorousMinutesOffset: {r: -4.56, g: 0.3, b: 0, a: 0}
   m_BuildTextureStacks: []

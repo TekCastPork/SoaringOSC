@@ -79,7 +79,12 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 0
-  - name: TrainingEffect
+  - name: ModerateMin
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: VigorousMin
     valueType: 1
     saved: 0
     defaultValue: 0
@@ -105,6 +110,11 @@ MonoBehaviour:
     defaultValue: 0
     networkSynced: 1
   - name: _ACK
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: _STATE
     valueType: 2
     saved: 0
     defaultValue: 0

@@ -59,3 +59,8 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
+  - name: _STATE
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
