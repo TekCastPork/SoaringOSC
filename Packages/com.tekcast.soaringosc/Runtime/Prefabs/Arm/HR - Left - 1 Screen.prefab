@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4707926060834992462}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -118,14 +118,22 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: b5a088158e53945439ca1209e81dbed7|Packages/com.tekcastpork.soaringosc/Runtime/Animator/Arm/Arm
+            id: b63142179c92b9248a1f91389b63c5b2|Packages/com.tekcastpork.soaringosc/Runtime/Animator/Arm/Arm
               - HR Only.controller
-            objRef: {fileID: 9100000, guid: b5a088158e53945439ca1209e81dbed7, type: 2}
+            objRef: {fileID: 9100000, guid: b63142179c92b9248a1f91389b63c5b2, type: 2}
           type: 5
         menus: []
-        prms: []
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 8e57ecd0d913f2b44a2c162e1fb53b26|Packages/com.tekcastpork.soaringosc/Runtime/Parameters/HR
+              Only.asset
+            objRef: {fileID: 11400000, guid: 8e57ecd0d913f2b44a2c162e1fb53b26, type: 2}
         smoothedPrms: []
-        globalParams: []
+        globalParams:
+        - '*'
         allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
